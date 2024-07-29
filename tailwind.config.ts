@@ -18,6 +18,30 @@ const config: Config = {
           600: '#2F6FEB',
         },
       },
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'fade-out': {
+          '0%': { opacity: '1' },
+          '100%': { opacity: '0' },
+        },
+        'slide-in': {
+          '0%': { transform: 'translateY(-20%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        'slide-out': {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-20%)' },
+        },
+      },
+      animation: {
+        'fade-in': 'fade-in 0.3s ease-out',
+        'fade-out': 'fade-out 0.3s ease-out',
+        'slide-in': 'slide-in 0.3s ease-out',
+        'slide-out': 'slide-out 0.3s ease-out',
+      },
     },
     keyframes: {
       shimmer: {

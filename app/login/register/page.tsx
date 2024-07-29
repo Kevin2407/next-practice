@@ -23,7 +23,7 @@ const Register: React.FC = () => {
   };
 
   return (
-    <div className="w-full md:w-1/2 md:!max-h-full h-full flex flex-col pt-20 overflow-y-auto overscroll-contain">
+    <div className="w-full md:w-1/2 md:!max-h-fit h-full flex flex-col pt-20 overflow-y-auto overscroll-contain">
       <div className="flex flex-col bg-white items-center md:justify-start md:pt-0 md:px-18 lg:px-32 rounded-t-[50px] px-8 pt-8 h-full">
         <h2 className="w-full px-4 pb-8 text-4xl text-primary font-bold max-w-lg mx-auto">
           Registro
@@ -115,7 +115,7 @@ const Register: React.FC = () => {
             >
               Registrarse
             </button>
-            <p className="pt-4">
+            <p className="pt-4 mb-5">
               ¿Ya tienes una cuenta? <Link href="/login"><span className="text-green-700"> Inicia sesión aquí</span></Link>
             </p>
           </div>

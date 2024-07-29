@@ -10,7 +10,7 @@ const SideImage = ({
   children: React.ReactNode;
 }) => {
   return (
-    <main className="w-full flex flex-wrap h-screen bg-gradient-to-r from-primary to-primary-focus md:from-white md:to-white">
+    <main className="w-full flex  h-screen ">
       <div className="w-1/2 hidden md:flex bg-[#f5f5f5] items-center h-full justify-center">
         <Image
           src={side}
